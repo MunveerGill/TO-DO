@@ -1,0 +1,43 @@
+body {
+  background-color: rgba(46, 46, 46, 0.59); }
+
+[template=landing-page] h1 {
+  color: white; }
+
+[template=nav-bar] .header {
+  height: 50px;
+  background: #e7e7e7;
+  margin-bottom: 15px; }
+
+[template=nav-bar] .navbar-brand {
+  color: white;
+  font-size: 30px; }
+
+[template=nav-bar] .navbar {
+  color: white;
+  background-color: #00b3ee; }
+
+[template=nav-bar] .navbar-default .navbar-nav > li > a:hover, [template=nav-bar] .navbar-default .navbar-nav > li > a:focus {
+  color: black; }
+
+[template=nav-bar] .navbar-default .navbar-nav > li > a {
+  color: white; }
+
+[template=nav-bar] .navbar-default .navbar-toggle {
+  border-color: transparent; }
+
+[template=nav-bar] .navbar-default .navbar-toggle:focus, [template=nav-bar] .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF; }
+
+[template=nav-bar] .navbar-default .navbar-toggle .icon-bar {
+  background-color: white; }
+
+[template=nav-bar] #logo {
+  width: 110px;
+  height: 50px;
+  margin-left: 0px; }
+
+@media (max-width: 767px) {
+  [template=nav-bar] #logo {
+    margin-left: 5px; } }

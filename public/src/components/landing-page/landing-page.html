@@ -1,0 +1,15 @@
+<script type="text/ng-template" id="landing-page.html">
+    <div template="landing-page">
+        <div class="container">
+            <table class="table table-hover">
+                <tbody>
+                <tr ng-repeat="todo in todos | orderBy:'title'" style="cursor:pointer">
+                    <td>
+                        <input type="checkbox" name="" value=""> {{ todo.title }} {{ todo.description }}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</script>
